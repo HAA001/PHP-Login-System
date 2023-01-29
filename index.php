@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="follow">
 
-        <title>Page Title</title>
+        <title>Login</title>
 
         <base href="/" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css" />
@@ -17,7 +17,7 @@
 <div class="uk-section uk-container">
     <div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1" uk-grid="">
 
-        <form class="uk-form-stacked">
+        <form class="uk-form-stacked js-login">
 
     <div class="uk-margin">
         <label class="uk-form-label" for="form-stacked-text">Email</label>
