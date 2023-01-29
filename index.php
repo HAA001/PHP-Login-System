@@ -1,6 +1,6 @@
 <?php
 //Allow the config
-!defined('__CONFIG__', TRUE);
+define('__CONFIG__', true);
 //reguire the config
 require_once "inc/config.php"; 
 
@@ -25,8 +25,12 @@ require_once "inc/config.php";
 <div class="uk-section uk-container">
     <?php
     echo "Hello Helen, Today is ";
-    eacho date("Y m d");
+    echo date("Y m d");
     ?>
+    <p>
+    <a href="/login.php">Login</a>
+    <a href="/register.php">Register</a>
+</p>
 </div>
 
 
@@ -39,7 +43,7 @@ require_once "inc/config.php";
 
 <?php
 //define footer
- required_once "inc/footer.php";
+ require_once "inc/footer.php";
 
 ?>
 
